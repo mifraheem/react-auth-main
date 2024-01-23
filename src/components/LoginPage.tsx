@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { SyntheticEvent, useState } from "react";
+import  { SyntheticEvent, useState } from "react";
 
 axios.defaults.xsrfCookieName = 'csrftoken';
 axios.defaults.xsrfHeaderName = 'X-SCRFToken';

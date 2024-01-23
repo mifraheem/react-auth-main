@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 
 axios.defaults.xsrfCookieName = 'csrftoken';
 axios.defaults.xsrfHeaderName = 'X-CSRFToken';
@@ -32,6 +32,6 @@ export default function Home() {
 
 
   return (
-    <div>Home</div>
+    <div>Home {name}</div>
   )
 }
